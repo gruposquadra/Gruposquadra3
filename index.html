@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grupo Squadra — Diseño · Construcción · Gerencia · Comercialización</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ── NAV ── -->
+<nav id="nav">
+  <a href="#" class="nav-logo" style="display:flex;flex-direction:column;align-items:flex-start;gap:2px;">
+<span style="font-family:'DM Sans',sans-serif;font-size:8px;letter-spacing:5px;color:var(--dorado);text-transform:uppercase;padding-left:48px;margin-bottom:-18px;">GRUPO</span>
+<div style="display:flex;align-items:center;gap:10px;"><img src="assets/img/img_00.png" style="height:38px;width:auto;object-fit:contain;" alt="SQUADRA"></div>
+  </a>
+  <div class="nav-links">
+    <a href="#propuesta">Servicios</a>
+    <a href="#enfoque">Enfoque</a>
+    <a href="#proceso">Proceso</a>
+    <a href="#diferenciadores">Nosotros</a>
+    <a href="#contacto" class="nav-cta">Contacto</a>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-content-row">
+    <!-- Left -->
+    <div class="hero-left">
+      <p class="hero-eyebrow">Diseño · Construcción · Gerencia · Comercialización</p>
+      <h1 class="hero-title">
+        CONSTRUIMOS<br>
+        <span class="gold thin">Valor.</span><br>
+        DISEÑAMOS<br>
+        <span class="gold thin">Futuro.</span>
+      </h1>
+      <div class="hero-rule"></div>
+      <p class="hero-desc">Soluciones integrales que conectan visión, estrategia y ejecución para generar proyectos extraordinarios.</p>
+      <div class="hero-actions">
+        <a href="#propuesta" class="btn-primary">Nuestros Servicios</a>
+        <a href="#contacto" class="btn-ghost">Conversemos</a>
+      </div>
+    </div>
+    <!-- Right -->
+    <div class="hero-right">
+      <div class="hero-bg-grid"></div>
+
+      <!-- Geometric decoration -->
+      <div class="geo-ring" style="width:460px;height:460px;top:50%;left:50%;transform:translate(-50%,-50%);"></div>
+      <div class="geo-ring" style="width:340px;height:340px;top:50%;left:50%;transform:translate(-50%,-50%);animation-direction:reverse;animation-duration:20s;"></div>
+
+      <div class="hero-geo">
+        <img src="assets/img/img_01.png" style="width:120px;height:auto;object-fit:contain;opacity:0.95;" alt="SQUADRA">
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats bottom bar -->
+  <div class="hero-bottom">
+    <div class="stat-item">
+      <div class="stat-num">SECTORES</div>
+      <div class="stat-label">Comercial · Corporativo · Institucional · Usos Mixtos · Comunicaciones · Industrial</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">+1M</div>
+      <div class="stat-label">M² Construidos y Administrados</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">+30</div>
+      <div class="stat-label">Años de Experiencia</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">100%</div>
+      <div class="stat-label">Compromiso con Clientes</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROPUESTA DE VALOR ── -->
+<section id="propuesta">
+  <div class="propuesta-text reveal">
+    <p class="section-eyebrow">Nuestra Propuesta de Valor</p>
+    <h2 class="section-title">SOLUCIONES<br><span class="italic">Integrales</span></h2>
+    <div style="width:48px;height:1px;background:var(--dorado);margin:24px 0 28px;"></div>
+    <p>Antes de Grupo Squadra, los socios fundadores desarrollaron una trayectoria de más de 30 años en el sector construcción e inmobiliario, liderando proyectos de gran escala en múltiples sectores. Hoy, unidos bajo Grupo Squadra, integramos diseño, construcción, gerencia de proyectos y comercialización para crear valor y materializar proyectos extraordinarios.</p>
+    <a href="#contacto" class="btn-primary" style="margin-top:36px;display:inline-block;">Iniciar Proyecto</a>
+  </div>
+
+  <div class="propuesta-services reveal reveal-delay-2">
+    <div class="service-card">
+      <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="12" cy="12" r="2"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+      </svg>
+      <h3>Diseño</h3>
+      <p>Creamos conceptos arquitectónicos funcionales, estéticos y sostenibles. Cada diseño refleja la identidad del cliente.</p>
+    </div>
+    <div class="service-card">
+      <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
+      </svg>
+      <h3>Construcción</h3>
+      <p>Ejecutamos con calidad, seguridad y eficiencia en cada detalle. Control riguroso de obra para superar expectativas.</p>
+    </div>
+    <div class="service-card">
+      <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+      </svg>
+      <h3>Gerencia de Proyectos</h3>
+      <p>Planificamos, coordinamos y controlamos para cumplir objetivos de tiempo, costo y calidad.</p>
+    </div>
+    <div class="service-card">
+      <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M3 3h18v18H3z"/><path d="M3 9h18M9 21V9"/>
+      </svg>
+      <h3>Comercialización</h3>
+      <p>Conectamos proyectos con el mercado para maximizar su valor. Estrategias de posicionamiento adaptadas.</p>
+    </div>
+  </div>
+
+  <!-- Visual right side -->
+  <div class="propuesta-visual reveal reveal-delay-3" style="display:flex;align-items:center;justify-content:center;padding:40px;">
+    <svg viewBox="0 0 400 400" style="width:100%;max-width:380px;" fill="none">
+      <!-- Integration circle diagram -->
+      <circle cx="200" cy="200" r="130" stroke="rgba(196,154,74,0.15)" stroke-width="1"/>
+      <circle cx="200" cy="200" r="90" stroke="rgba(196,154,74,0.1)" stroke-width="1"/>
+      <!-- DISEÑO -->
+      <circle cx="200" cy="70" r="36" fill="#1A2027" stroke="#C49A4A" stroke-width="1"/>
+      <text x="200" y="65" text-anchor="middle" font-family="'DM Sans'" font-size="7" fill="#C49A4A" letter-spacing="2">DISEÑO</text>
+      <!-- CONSTRUCCIÓN -->
+      <circle cx="330" cy="200" r="36" fill="#1A2027" stroke="#C49A4A" stroke-width="1"/>
+      <text x="330" y="196" text-anchor="middle" font-family="'DM Sans'" font-size="6" fill="#C49A4A" letter-spacing="1">CONSTRUC-</text>
+      <text x="330" y="206" text-anchor="middle" font-family="'DM Sans'" font-size="6" fill="#C49A4A" letter-spacing="1">CIÓN</text>
+      <!-- GERENCIA -->
+      <circle cx="200" cy="330" r="36" fill="#1A2027" stroke="#C49A4A" stroke-width="1"/>
+      <text x="200" y="326" text-anchor="middle" font-family="'DM Sans'" font-size="6" fill="#C49A4A" letter-spacing="1">GERENCIA</text>
+      <text x="200" y="336" text-anchor="middle" font-family="'DM Sans'" font-size="6" fill="#C49A4A" letter-spacing="1">PROYECTOS</text>
+      <!-- COMERCIALIZACIÓN -->
+      <circle cx="70" cy="200" r="36" fill="#1A2027" stroke="#C49A4A" stroke-width="1"/>
+      <text x="70" y="196" text-anchor="middle" font-family="'DM Sans'" font-size="6" fill="#C49A4A" letter-spacing="1">COMER-</text>
+      <text x="70" y="206" text-anchor="middle" font-family="'DM Sans'" font-size="6" fill="#C49A4A" letter-spacing="1">CIALIZ.</text>
+      <!-- Center -->
+      <circle cx="200" cy="200" r="44" fill="#C49A4A" opacity="0.08"/>
+      <!-- Real logo center -->
+      <image href="assets/img/img_02.png" x="160" y="162" width="80" height="76"/>
+      <text x="200" y="236" text-anchor="middle" font-family="'DM Sans'" font-size="7" fill="rgba(196,154,74,0.7)" letter-spacing="3">INTEGRACIÓN</text>
+      <!-- Lines -->
+      <line x1="200" y1="106" x2="200" y2="156" stroke="rgba(196,154,74,0.2)" stroke-width="1"/>
+      <line x1="294" y1="200" x2="244" y2="200" stroke="rgba(196,154,74,0.2)" stroke-width="1"/>
+      <line x1="200" y1="294" x2="200" y2="244" stroke="rgba(196,154,74,0.2)" stroke-width="1"/>
+      <line x1="106" y1="200" x2="156" y2="200" stroke="rgba(196,154,74,0.2)" stroke-width="1"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ── NUESTRO ENFOQUE ── -->
+<section id="enfoque">
+  <div class="reveal">
+    <p class="section-eyebrow" style="text-align:center;">Nuestro Enfoque</p>
+    <h2 class="section-title" style="text-align:center;">INTEGRACIÓN QUE<br><span class="italic">Genera Valor</span></h2>
+  </div>
+  <p class="subtitle reveal reveal-delay-1">Cada proyecto es una oportunidad de conectar visión, estrategia, ejecución y resultados en un ciclo de valor continuo.</p>
+
+  <div class="enfoque-grid">
+    <div class="enfoque-card reveal reveal-delay-1" data-num="01">
+      <div class="enfoque-icon-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+      </div>
+      <h3>Visión</h3>
+      <p>Entendemos el contexto y definimos las oportunidades de mayor potencial para cada proyecto.</p>
+    </div>
+    <div class="enfoque-card reveal reveal-delay-2" data-num="02">
+      <div class="enfoque-icon-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      </div>
+      <h3>Estrategia</h3>
+      <p>Diseñamos estrategias inteligentes y sostenibles, adaptadas a cada mercado y cliente.</p>
+    </div>
+    <div class="enfoque-card reveal reveal-delay-3" data-num="03">
+      <div class="enfoque-icon-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+      </div>
+      <h3>Ejecución</h3>
+      <p>Materializamos proyectos con precisión y control en cada etapa del proceso constructivo.</p>
+    </div>
+    <div class="enfoque-card reveal reveal-delay-4" data-num="04">
+      <div class="enfoque-icon-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+      </div>
+      <h3>Resultados</h3>
+      <p>Entregamos proyectos que trascienden y generan retorno sostenido para nuestros clientes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROCESO ── -->
+<section id="proceso">
+  <div class="section-header reveal">
+    <p class="section-eyebrow">Proceso de Trabajo</p>
+    <h2 class="section-title">CÓMO LO<br><span class="italic">Hacemos</span></h2>
+    <div style="width:48px;height:1px;background:var(--dorado);margin-top:24px;"></div>
+  </div>
+
+  <div class="proceso-track">
+    <div class="proceso-line"></div>
+    <div class="proceso-steps">
+      <div class="proceso-step reveal reveal-delay-1">
+        <div class="paso-dot"><span class="paso-num">01</span></div>
+        <h3>Diagnóstico</h3>
+        <p>Evaluamos las condiciones del proyecto, el entorno y las oportunidades del mercado.</p>
+      </div>
+      <div class="proceso-step reveal reveal-delay-2">
+        <div class="paso-dot"><span class="paso-num">02</span></div>
+        <h3>Planificación</h3>
+        <p>Definimos objetivos, alcance, cronograma y presupuesto con precisión estratégica.</p>
+      </div>
+      <div class="proceso-step reveal reveal-delay-3">
+        <div class="paso-dot"><span class="paso-num">03</span></div>
+        <h3>Diseño</h3>
+        <p>Creamos soluciones arquitectónicas funcionales, estéticas y adaptadas a la norma.</p>
+      </div>
+      <div class="proceso-step reveal reveal-delay-4">
+        <div class="paso-dot"><span class="paso-num">04</span></div>
+        <h3>Ejecución</h3>
+        <p>Construimos con estándares de calidad, seguridad y eficiencia operativa.</p>
+      </div>
+      <div class="proceso-step reveal reveal-delay-5">
+        <div class="paso-dot"><span class="paso-num">05</span></div>
+        <h3>Entrega</h3>
+        <p>Cerramos el ciclo posicionando el proyecto en el mercado con máximo valor.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── POR QUÉ ELEGIRNOS ── -->
+<section id="diferenciadores">
+  <div class="reveal">
+    <p class="section-eyebrow">Por Qué Elegirnos</p>
+    <h2 class="section-title">LO QUE NOS HACE<br><span class="italic">Diferentes</span></h2>
+  </div>
+
+  <div class="dif-grid">
+    <div class="dif-card reveal reveal-delay-1">
+      <div class="dif-card-num">— 01</div>
+      <h3>Integración Total</h3>
+      <p>Diseño, construcción, gerencia y comercialización en un solo equipo cohesionado. Una sola voz, un solo resultado.</p>
+    </div>
+    <div class="dif-card reveal reveal-delay-2">
+      <div class="dif-card-num">— 02</div>
+      <h3>Compromiso 100%</h3>
+      <p>Nos involucramos en cada detalle como si el proyecto fuera nuestro propio. Tu visión es nuestra misión.</p>
+    </div>
+    <div class="dif-card reveal reveal-delay-3">
+      <div class="dif-card-num">— 03</div>
+      <h3>Visión de Largo Plazo</h3>
+      <p>Pensamos en el valor futuro de cada proyecto, no solo en la entrega inmediata. Construimos legados.</p>
+    </div>
+    <div class="dif-card reveal reveal-delay-1">
+      <div class="dif-card-num">— 04</div>
+      <h3>Trayectoria Probada</h3>
+      <p>Más de 30 años de experiencia acumulada, con +1M de m² construidos y administrados en sectores industrial, comercial, corporativo, institucional, usos mixtos y comunicaciones.</p>
+    </div>
+    <div class="dif-card reveal reveal-delay-2">
+      <div class="dif-card-num">— 05</div>
+      <h3>Estrategia Inteligente</h3>
+      <p>Soluciones personalizadas para cada cliente, mercado y tipo de proyecto. No existe un molde único.</p>
+    </div>
+    <div class="dif-card reveal reveal-delay-3">
+      <div class="dif-card-num">— 06</div>
+      <h3>Precisión en Ejecución</h3>
+      <p>Control riguroso de calidad, tiempo y presupuesto en cada fase. Entregamos lo que prometemos.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ── CONTACTO ── -->
+<section id="contacto">
+  <p class="contacto-eyebrow reveal">Hablemos de tu Proyecto</p>
+  <h2 class="contacto-title reveal">
+    HAGA QUE SU<br>
+    <span class="italic">Visión</span><br>
+    SE CONSTRUYA
+  </h2>
+  <p class="contacto-sub reveal reveal-delay-1">Conversemos sobre tu próximo proyecto. Nuestro equipo está listo para escucharte y diseñar la solución perfecta.</p>
+  <a href="mailto:info@gruposquadra.com" class="btn-primary reveal reveal-delay-2">Contactar Ahora</a>
+
+  <div class="contacto-info reveal reveal-delay-3">
+    <div class="contacto-item">
+      <div class="ci-label">Web</div>
+      <div class="ci-value">gruposquadra.com</div>
+    </div>
+    <div class="contacto-item">
+      <div class="ci-label">Email</div>
+      <div class="ci-value">info@gruposquadra.com</div>
+    </div>
+    <div class="contacto-item">
+      <div class="ci-label">Teléfono</div>
+      <div class="ci-value">+52 8112772504</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-logo">GRUPO SQUADRA</div>
+  <div class="footer-copy">© 2026 Grupo Squadra. Todos los derechos reservados.</div>
+  <div class="footer-links">
+    <a href="#propuesta">Servicios</a>
+    <a href="#enfoque">Enfoque</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
